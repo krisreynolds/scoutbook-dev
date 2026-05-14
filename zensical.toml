@@ -31,14 +31,12 @@ features = [
     "navigation.instant.progress"
 ]
 
-# Palette toggle for light mode
 [[project.theme.palette]]
 media = "(prefers-color-scheme: light)"
 scheme = "default"
 toggle.icon = "lucide/sun"
 toggle.name = "Switch to dark mode"
 
-# Palette toggle for dark mode
 [[project.theme.palette]]
 media = "(prefers-color-scheme: dark)"
 scheme = "slate"
