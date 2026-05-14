@@ -9,7 +9,17 @@ site_dir = "site"
 
 nav = [
   {"Home" = "index.md"},
-  {"About" = "about.md"}
+  {"Campsites" = "campsites.md"}
+  {"External Activity Providers" = "external-providers.md"}
+  {"Gang Shows" = "gangshows.md"}
+  {"Jamborees" = "jamborees"}
+  {"Programme Ideas" = "programme-ideas"}
+  {"Scout Association Links" = "scouts-links"}
+  {"Scout Discounts" = "discounts.md"}
+  {"Scouting Facebook Groups" = "facebookgroups.md"}
+  {"Shops & Suppliers" = "shops-suppliers.md"}
+  {"Tools & Apps" = "tools.md"}
+  {"Useful Links" = "otherlinks.md"}
 ]
 
 [project.theme]
