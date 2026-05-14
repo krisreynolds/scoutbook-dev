@@ -1,0 +1,11 @@
+[project]
+site_name = "Scoutbook"
+site_url = "https://example.com"
+site_description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+site_author = "John Doe"
+copyright = "&copy; 2025 Jane Doe"
+docs_dir = "docs"
+site_dir = "site"
+
+[project.theme]
+variant = "modern"
