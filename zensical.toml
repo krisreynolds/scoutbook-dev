@@ -1,11 +1,23 @@
 [project]
 site_name = "Scoutbook"
-site_url = "https://example.com"
-site_description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-site_author = "John Doe"
-copyright = "&copy; 2025 Jane Doe"
+site_url = "https://www.scoutbook.org.uk"
+site_description = "A curated list of tools, programme ideas, campsites, and links for Scouts."
+site_author = "Kris Reynolds"
+copyright = "&copy; 2026 Kris Reynolds/Scoutbook"
 docs_dir = "docs"
 site_dir = "site"
 
+nav = [
+  {"Home" = "index.md"},
+  {"About" = "about.md"}
+]
+
 [project.theme]
 variant = "modern"
+features = [
+    "navigation.instant",
+    "navigation.instant.progress"
+]
+
+[project.markdown_extensions.toc]
+toc_depth = 2
