@@ -9,6 +9,9 @@ site_dir = "site"
 extra_css = ["stylesheets/extra.css"]
 extra_javascript = ["js/external-links.js"]
 
+[project.extra]
+generator = false
+
 [project.extra.consent]
 title = "Cookie consent"
 description = """
@@ -35,6 +38,7 @@ variant = "modern"
 font = { text = "Nunito Sans", code = "Roboto Mono" }
 logo = "images/logo.png"
 favicon = "images/logo.png"
+custom_dir = "overrides"
 
 [[project.theme.palette]]
 media = "(prefers-color-scheme: light)"
@@ -51,6 +55,11 @@ primary = "custom"
 accent = "custom"
 toggle.icon = "lucide/moon"
 toggle.name = "Switch to light mode"
+
+[project.markdown_extensions.pymdownx.emoji]
+emoji_index = "zensical.extensions.emoji.twemoji"
+emoji_generator = "zensical.extensions.emoji.to_svg"
+options.custom_icons = ["overrides/.icons"]
 
 [project.markdown_extensions.toc]
 toc_depth = 2

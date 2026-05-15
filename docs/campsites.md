@@ -6,7 +6,7 @@
 
 ## Argyll and Bute
 
-### [Lochgoilhead](https://www.scoutadventures.org.uk/centre/lochgoilhead) ⚜️
+### [Lochgoilhead](https://www.scoutadventures.org.uk/centre/lochgoilhead) :scoutbook-scoutadventures:
 A lochside centre in Loch Lomond and Trossachs National Park at Shelter Park, Lochgoilhead, with indoor accommodation for 136, camping areas, and water/land activities like kayaking, climbing, and hillwalking.
 
 ## Avon
