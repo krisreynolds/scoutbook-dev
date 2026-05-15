@@ -1,15 +1,171 @@
-/* Light mode scheme (default) */
-[data-md-color-scheme="default"] {
-  --md-primary-fg-color:        #7413dc;
-  --md-primary-fg-color--light: #7413dc;
-  --md-primary-fg-color--dark:  #7413dc;
-  --md-accent-fg-color:         #00a794;
+/* --- 1. THEME COLOR MAPPING --- */
+
+/* Shared variables used in your custom styling below */
+:root {
+  --scout-purple: #7413DC;
+  --scout-purple-dark: #5A0FB8;
+  --scout-teal: #00A794;
+  --scout-black: #001323;
 }
 
-/* Dark mode scheme (slate) */
+/* Light Mode Variables (Applied to Zensical UI) */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color:        var(--scout-purple);
+  --md-primary-fg-color--light: #9B4FE8;
+  --md-primary-fg-color--dark:  var(--scout-purple-dark);
+  --md-accent-fg-color:         var(--scout-teal);
+}
+
+/* Dark Mode Variables (Applied to Zensical UI) */
 [data-md-color-scheme="slate"] {
-  --md-primary-fg-color:        #00a794;
-  --md-primary-fg-color--light: #00a794;
-  --md-primary-fg-color--dark:  #00a794;
-  --md-accent-fg-color:         #7413dc;
+  --md-primary-fg-color:        var(--scout-teal);
+  --md-primary-fg-color--light: #00d4b3;
+  --md-primary-fg-color--dark:  #008576;
+  --md-accent-fg-color:         var(--scout-purple);
+}
+
+
+/* --- 2. CONTENT STYLING (H2 & H3) --- */
+
+/* Hide headlinks */
+.md-content h2 .headerlink,
+.md-content h3 .headerlink {
+  display: none;
+}
+
+/* H2 County Labels */
+.md-content h2 {
+  font-size: 0.7rem !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.1em !important;
+  color: var(--scout-purple) !important;
+  margin-top: 2.5rem !important;
+  margin-bottom: 1rem !important;
+  padding: 0.5rem 0 !important;
+  border-bottom: 2px solid var(--scout-purple) !important;
+  background: none !important;
+}
+
+/* Light Mode H3 Cards */
+.md-content h3 {
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  padding: 0.75rem 1rem 0.5rem !important;
+  border: 1px solid #e9ecef !important;
+  border-left: 4px solid var(--scout-purple) !important;
+  border-radius: 0 8px 0 0 !important;
+  color: #212529 !important;
+  background: #f8f9fa !important;
+  margin: 0.75rem 0 0 !important;
+  border-bottom: none !important;
+}
+
+.md-content h3 a {
+  color: var(--scout-purple);
+  text-decoration: none;
+}
+
+.md-content h3 + p {
+  background: #f8f9fa !important;
+  border: 1px solid #e9ecef !important;
+  border-top: none !important;
+  border-left: 4px solid var(--scout-purple) !important;
+  border-radius: 0 0 8px 8px !important;
+  padding: 0.5rem 1rem 0.75rem !important;
+  margin: 0 0 0.75rem 0 !important;
+  font-size: 0.85rem !important;
+  line-height: 1.65 !important;
+  color: #495057 !important;
+}
+
+/* Dark Mode Overrides for H2/H3 */
+[data-md-color-scheme="slate"] .md-content h2 {
+  color: #ffffff !important;
+  border-bottom-color: #ffffff !important;
+}
+
+[data-md-color-scheme="slate"] .md-content h3 {
+  color: var(--scout-teal) !important;
+  background: #2a2a3e !important;
+  border-color: #4a4a6a !important;
+  border-left-color: var(--scout-teal) !important;
+}
+
+[data-md-color-scheme="slate"] .md-content h3 a {
+  color: var(--scout-teal) !important;
+}
+
+[data-md-color-scheme="slate"] .md-content h3 + p {
+  color: #d4d4e8 !important;
+  background: #2a2a3e !important;
+  border-color: #4a4a6a !important;
+  border-left-color: var(--scout-teal) !important;
+}
+
+
+/* --- 3. NAVIGATION BUTTONS --- */
+
+[id="md-nav-extra"] {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+}
+
+[id="md-nav-extra"] a.md-nav-btn {
+  display: block !important;
+  text-align: center !important;
+  padding: 0.5rem 1rem !important;
+  border-radius: 4px !important;
+  text-decoration: none !important;
+  font-size: 0.78rem !important;
+  font-weight: 700 !important;
+  transition: filter 0.15s !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+[id="md-nav-extra"] a.md-nav-btn--green {
+  background: #84A40B !important;
+  color: #fff !important;
+}
+
+[id="md-nav-extra"] a.md-nav-btn--yellow {
+  background: #FFDD00 !important;
+  color: #000 !important;
+}
+
+/* Hide external icons on buttons */
+[id="md-nav-extra"] a:after,
+[id="md-nav-extra"] .md-icon--link-external {
+  display: none !important;
+}
+
+
+/* --- 4. LAYOUT & UTILITY --- */
+
+.md-content h1 + p a {
+  display: inline-block;
+  background: var(--scout-purple);
+  color: #fff !important;
+  padding: 0.35rem 0.85rem;
+  border-radius: 4px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+  transition: opacity 0.15s;
+}
+
+.md-content h1 + p a:hover {
+  opacity: 0.9;
+}
+
+@media screen and (min-width: 76.25em) {
+  .nav-extra--mobile { display: none !important; }
+}
+
+@media screen and (max-width: 76.24em) {
+  .nav-extra--desktop { display: none !important; }
 }
