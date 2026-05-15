@@ -8,6 +8,12 @@ docs_dir = "docs"
 site_dir = "site"
 extra_css = ["stylesheets/extra.css"]
 
+[project.extra.consent]
+title = "Cookie consent"
+description = """
+    We use cookies (unfortunately the edible kind!) to anonymously monitor how much this site is used, along with things like your browser and device type so we can keep improving.
+"""
+
 nav = [
   {"Home" = "index.md"},
   {"Campsites" = "campsites.md"},
