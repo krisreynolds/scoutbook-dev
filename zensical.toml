@@ -25,6 +25,7 @@ nav = [
 
 [project.theme]
 variant = "modern"
+font.text = "Nunito Sans"
 features = [
     "navigation.instant",
     "navigation.instant.progress"
