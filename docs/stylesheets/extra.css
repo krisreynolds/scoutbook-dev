@@ -39,7 +39,7 @@
 
 /* H2 County Labels */
 .md-content h2 {
-  font-size: 0.75rem !important;
+  font-size: 0.7rem !important;
   font-weight: 800 !important; /* Made heavier to match brand */
   text-transform: uppercase !important;
   letter-spacing: 0.12em !important;
@@ -52,7 +52,7 @@
 
 /* H3 Cards */
 .md-content h3 {
-  font-size: 1.05rem !important;
+  font-size: 1.00rem !important;
   font-weight: 700 !important;
   padding: 0.85rem 1rem 0.6rem !important;
   border: 1px solid #e9ecef !important;
@@ -77,8 +77,8 @@
   border-radius: 0 0 8px 8px !important;
   padding: 0.6rem 1rem 0.85rem !important;
   margin: 0 0 1rem 0 !important;
-  font-size: 0.9rem !important;
-  line-height: 1.6 !important;
+  font-size: 0.85rem !important;
+  line-height: 1.65 !important;
   color: #495057 !important;
 }
 
@@ -115,7 +115,7 @@
   padding: 0.6rem 1rem !important;
   border-radius: 6px !important;
   text-decoration: none !important;
-  font-size: 0.8rem !important;
+  font-size: 0.78rem !important;
   font-weight: 800 !important;
   width: 100% !important;
 }
@@ -132,7 +132,7 @@
   color: #fff !important;
   padding: 0.5rem 1.2rem;
   border-radius: 6px;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   font-weight: 700;
   text-decoration: none;
 }
