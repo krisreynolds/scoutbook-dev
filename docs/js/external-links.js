@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentSwitch", function() {
+document.addEventListener("DOMContentLoaded", function() {
   var links = document.querySelectorAll('a');
   links.forEach(function(link) {
     if (link.hostname !== window.location.hostname && link.hostname !== '') {

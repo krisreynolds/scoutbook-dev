@@ -35,10 +35,6 @@ variant = "modern"
 font = { text = "Nunito Sans", code = "Roboto Mono" }
 logo = "images/logo.png"
 favicon = "images/logo.png"
-features = [
-    "navigation.instant",
-    "navigation.instant.progress"
-]
 
 [[project.theme.palette]]
 media = "(prefers-color-scheme: light)"
