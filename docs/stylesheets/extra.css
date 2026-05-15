@@ -108,9 +108,9 @@
   transition: color 0.2s ease;
 }
 
-/* FIX: Dark Mode Hover Color */
+/* Dark Mode Hover Color */
 [data-md-color-scheme="slate"] .md-content h3 a:hover {
-  color: #ffffff !important;
+  color: var(--scout-purple) !important;
   text-decoration: underline !important;
 }
 
