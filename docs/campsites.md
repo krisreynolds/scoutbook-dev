@@ -2,7 +2,7 @@
 
 [➕ Suggest a link](https://form.jotform.com/260734372907057)
 
-!!! note
+!!! info
 
     Sites marked with :scoutbook-scoutadventures: are run by Scout Adventures, part of The Scout Association.
 
