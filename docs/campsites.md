@@ -2,7 +2,7 @@
 
 [➕ Suggest a link](https://form.jotform.com/260734372907057)
 
-*Sites marked with ⚜️ are run by Scout Adventures, part of The Scout Association.*
+*Sites marked with :scoutbook-scoutadventures: are run by Scout Adventures, part of The Scout Association.*
 
 ## Argyll and Bute
 
@@ -31,7 +31,7 @@ Dunham Park Scout Camp is a serene camping facility located within the historic 
 
 ## Cumbria
 
-### [Great Tower](https://www.scoutadventures.org.uk/centre/great-tower) ⚜️
+### [Great Tower](https://www.scoutadventures.org.uk/centre/great-tower) :scoutbook-scoutadventures:
 A 250-acre woodland site on Lake Windermere near Newby Bridge, with lodges, tented villages, camping, and activities like kayaking, climbing, and bushcraft.
 
 ## Dorset
@@ -47,7 +47,7 @@ A 7½-acre site in north-west Bournemouth with easy access to Poole, Christchurc
 
 ## East Sussex
 
-### [Broadstone Warren](https://www.scoutadventures.org.uk/centre/broadstone-warren) ⚜️
+### [Broadstone Warren](https://www.scoutadventures.org.uk/centre/broadstone-warren) :scoutbook-scoutadventures:
 A 400-acre woodland site in Ashdown Forest near Forest Row, featuring extensive camping areas, activity zones, and residential accommodation for large groups.
 
 ## Essex
@@ -58,7 +58,7 @@ A 28-acre activity centre with open fields, three lodges, and a wide mix of adve
 ### [Condovers Scout Camp Site](https://sites.google.com/view/condovers/home)
 The site is a 3.5-acre facility situated in West Tilbury and is managed by the Thurrock Scout District. It offers a quiet environment for traditional camping and includes facilities like Havers Lodge—a base for dining and activities—alongside on-site adventurous activities such as an abseiling tower.
 
-### [Gilwell Park](https://www.scoutadventures.org.uk/centre/gilwell-park) ⚜️
+### [Gilwell Park](https://www.scoutadventures.org.uk/centre/gilwell-park) :scoutbook-scoutadventures:
 The home of Scouting! A 109-acre woodland site in Epping Forest near Chingford, offering camping fields, modern lodges, and activities like archery, climbing, and high ropes.
 
 ### [King Edward VIII (Riffhams)](https://www.chelmsfordscouts.org.uk/about/riffhams/)
@@ -75,7 +75,7 @@ Set in 76 acres near Brentwood, Thriftwood features open and wooded camping area
 
 ## Fife
 
-### [Fordell Firs](https://www.scoutadventures.org.uk/centre/fordell-firs) ⚜️
+### [Fordell Firs](https://www.scoutadventures.org.uk/centre/fordell-firs) :scoutbook-scoutadventures:
 A 48-acre adventure centre near Dunfermline with woodland camping, dorms for 67, and over 20 activities including archery, climbing, and aerial runways.
 
 ## Gloucestershire
@@ -99,7 +99,7 @@ Frylands Wood Scout Outdoor Centre is a 60-acre woodland site in Greater London,
 
 ## Gwynedd
 
-### [Yr Hafod](https://www.scoutadventures.org.uk/centre/yr-hafod) ⚜️
+### [Yr Hafod](https://www.scoutadventures.org.uk/centre/yr-hafod) :scoutbook-scoutadventures:
 A mountain hostel in Eryri (Snowdonia) National Park near Bethesda in the Ogwen Valley, sleeping 32 with kitchen, drying room, and direct access to peaks like Tryfan and Y Garn for hillwalking and climbing.
 
 ## Hampshire
@@ -162,12 +162,12 @@ Ford Scout Camp is a secluded facility operated by North Northumberland District
 
 ## Oxfordshire
 
-### [Youlbury](https://www.scoutadventures.org.uk/centre/youlbury) ⚜️
+### [Youlbury](https://www.scoutadventures.org.uk/centre/youlbury) :scoutbook-scoutadventures:
 A 42-acre woodland site on Boars Hill near Oxford, offering camping fields, lodges for 86, and activities like climbing, archery, go-karts, and aerial challenges.
 
 ## Perth and Kinross
 
-### [Meggernie](https://www.scoutadventures.org.uk/centre/meggernie) ⚜️
+### [Meggernie](https://www.scoutadventures.org.uk/centre/meggernie) :scoutbook-scoutadventures:
 A remote 110-acre estate in Glen Lyon near Aberfeldy, offering self-catering lodges for 30, wild camping, and activities like survival skills, gorge walking, and environmental studies.
 
 ## Somerset
