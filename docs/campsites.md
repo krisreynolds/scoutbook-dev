@@ -2,7 +2,9 @@
 
 [➕ Suggest a link](https://form.jotform.com/260734372907057)
 
-*Sites marked with :scoutbook-scoutadventures: are run by Scout Adventures, part of The Scout Association.*
+!!! note
+
+    Sites marked with :scoutbook-scoutadventures: are run by Scout Adventures, part of The Scout Association.
 
 ## Argyll and Bute
 
