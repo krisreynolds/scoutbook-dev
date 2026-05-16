@@ -8,7 +8,6 @@ docs_dir = "docs"
 site_dir = "site"
 extra_css = ["stylesheets/extra.css"]
 extra_javascript = ["js/external-links.js"]
-custom_dir: "overrides"
 
 [project.extra]
 generator = false
@@ -24,9 +23,9 @@ nav = [
   {"Campsites" = "campsites.md"},
   {"External Activity Providers" = "external-providers.md"},
   {"Gang Shows" = "gangshows.md"},
-  {"Jamborees" = "jamborees"},
-  {"Programme Ideas" = "programme-ideas"},
-  {"Scout Association Links" = "scouts-links"},
+  {"Jamborees" = "jamborees.md"},          # Added .md extensions to fix potential build warnings
+  {"Programme Ideas" = "programme-ideas.md"},
+  {"Scout Association Links" = "scouts-links.md"},
   {"Scout Discounts" = "discounts.md"},
   {"Scouting Facebook Groups" = "facebookgroups.md"},
   {"Shops & Suppliers" = "shops-suppliers.md"},
