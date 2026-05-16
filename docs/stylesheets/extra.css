@@ -94,7 +94,7 @@
 
 /* Light Mode Hover State */
 .md-content h3 a:hover {
-  color: var(--scout-green !important;
+  color: var(--scout-green) !important; /* Fixed: Added missing closing parenthesis */
   text-decoration: underline !important;
 }
 
