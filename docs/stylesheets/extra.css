@@ -1,10 +1,32 @@
 /* --- 1. THEME & FONT MAPPING --- */
 
 :root {
-  --scout-purple: #7413DC;
-  --scout-purple-dark: #5A0FB8;
-  --scout-teal: #00A794;
-  --scout-black: #001323;
+  /* --- PRIMARY BRAND COLOURS --- */
+  --scout-purple:        #7413dc; /* Primary brand color anchoring external use */
+  --scout-teal:          #088486; /* Darker 2023 variant to optimize text contrast */
+  
+  /* --- CORE BRAND PALETTE --- */
+  --scout-red:          #ed3f23; /* Squirrels section color */
+  --scout-pink:         #ffb4e5; /* Supporting brand accent */
+  --scout-green:        #25b755; /* General brand green */
+  --scout-navy:         #003982; /* Explorers section color */
+  --scout-blue:         #006ddf; /* Beavers section color */
+  --scout-yellow:       #ffe627; /* Supporting brand accent */
+  --scout-orange:       #ff912a; /* 2023 introduction - youthful/optimistic accent */
+  --scout-forest-green: #205b41; /* Supporting badge layout accent */
+
+  /* --- SPECIFIC SECTION GREENS --- */
+  --cub-section-green:   #23a950; /* Cubs specific uniform & media shade */
+  --scout-section-green: #004851; /* Scouts specific uniform & media shade */
+
+  /* --- BRAND GRAYSCALE --- */
+  --scout-white:         #ffffff;
+  --scout-black:         #000000; /* Network section color / Base layout black */
+  --scout-grey-80:       #2f2f2f;
+  --scout-grey-60:       #636363;
+  --scout-grey-40:       #979797;
+  --scout-grey-20:       #c8c8c8;
+
   /* Ensure the custom font is applied to headers if the theme misses any */
   --md-text-font: "Nunito Sans", -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
 }
@@ -12,8 +34,8 @@
 /* Light Mode Variables */
 [data-md-color-scheme="default"] {
   --md-primary-fg-color:        var(--scout-purple);
-  --md-primary-fg-color--light: #9B4FE8;
-  --md-primary-fg-color--dark:  var(--scout-purple-dark);
+  --md-primary-fg-color--light: var(--scout-teal);
+  --md-primary-fg-color--dark:  var(--scout-teal);
   --md-accent-fg-color:         var(--scout-teal);
 }
 
@@ -72,7 +94,7 @@
 
 /* Light Mode Hover State */
 .md-content h3 a:hover {
-  color: var(--scout-purple-dark) !important;
+  color: var(--scout-green !important;
   text-decoration: underline !important;
 }
 
@@ -161,10 +183,12 @@
   border-top-color: rgba(255, 255, 255, 0.1) !important;
 }
 
-/* Button style properties */
+/* Button style properties and alignment centering layout */
 [id="md-nav-extra"] a.md-nav-btn {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
   font-family: var(--md-text-font) !important;
-  display: block !important;
   text-align: center !important;
   padding: 0.6rem 1rem !important;
   border-radius: 6px !important;
@@ -180,5 +204,12 @@
   opacity: 0.9;
 }
 
-[id="md-nav-extra"] a.md-nav-btn--suggest { background: #84A40B !important; color: #ffffff !important; }
-[id="md-nav-extra"] a.md-nav-btn--beer { background: #FFDD00 !important; color: #000 !important; }
+/* Ensure all icons within the container have precise layout layout uniformities */
+[id="md-nav-extra"] a.md-nav-btn svg {
+  margin-right: 8px !important;
+  flex-shrink: 0 !important; /* Prevents the icon from shrinking on narrow sidebars */
+}
+
+/* Button variants styling custom maps */
+[id="md-nav-extra"] a.md-nav-btn--suggest { background: var(--scout-green) !important; color: #ffffff !important; }
+[id="md-nav-extra"] a.md-nav-btn--beer { background: var(--scout-yellow) !important; color: #000000 !important; }
