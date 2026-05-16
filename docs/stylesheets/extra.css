@@ -123,6 +123,18 @@
 
 /* --- 3. NAVIGATION BUTTONS --- */
 
+/* Force the wrapper navigation component to expand vertically */
+.md-nav--primary {
+  display: flex !important;
+  flex-direction: column !important;
+  height: 100% !important;
+}
+
+/* Ensure the links list takes remaining space, pinning the extra div downward */
+.md-nav--primary .md-nav__list {
+  flex-grow: 1 !important;
+}
+
 /* Container targeting the wrapper at the bottom of the nav */
 [id="md-nav-extra"] {
   display: flex !important;
