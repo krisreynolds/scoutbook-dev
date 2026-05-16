@@ -41,7 +41,7 @@
 
 /* Dark Mode Variables */
 [data-md-color-scheme="slate"] {
-  --md-primary-fg-color:        var(--scout-teal);
+  --md-primary-fg-color:        var(--scout-green);
   --md-primary-fg-color--light: var(--scout-teal);
   --md-primary-fg-color--dark:  var(--scout-green);
   --md-accent-fg-color:         var(--scout-purple);
@@ -126,7 +126,7 @@
 }
 
 [data-md-color-scheme="slate"] .md-content h3 a {
-  color: var(--scout-teal) !important;
+  color: var(--scout-green) !important;
   transition: color 0.2s ease;
 }
 
