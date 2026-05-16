@@ -180,5 +180,5 @@
   opacity: 0.9;
 }
 
-[id="md-nav-extra"] a.md-nav-btn--green { background: #84A40B !important; color: #ffffff !important; }
-[id="md-nav-extra"] a.md-nav-btn--yellow { background: #FFDD00 !important; color: #000 !important; }
+[id="md-nav-extra"] a.md-nav-btn--suggest { background: #84A40B !important; color: #ffffff !important; }
+[id="md-nav-extra"] a.md-nav-btn--beer { background: #FFDD00 !important; color: #000 !important; }

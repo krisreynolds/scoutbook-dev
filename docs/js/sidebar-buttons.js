@@ -1,10 +1,16 @@
 document.addEventListener("DOMContentLoaded", function () {
   function injectNavButtons() {
-    // 1. Define the HTML structure for your standalone buttons
+    // 1. Define the HTML structure for your standalone buttons with inline SVGs
     const buttonsHTML = `
       <div id="md-nav-extra">
-        <a href="https://example.com/green-link" class="md-nav-btn md-nav-btn--green">Green Action</a>
-        <a href="https://example.com/yellow-link" class="md-nav-btn md-nav-btn--yellow">Yellow Action</a>
+        <a href="https://form.jotform.com/260734372907057" class="md-nav-btn md-nav-btn--suggest">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px; vertical-align: middle;"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
+          Suggest a link
+        </a>
+        <a href="https://ko-fi.com/krisreynoldsdev" class="md-nav-btn md-nav-btn--beer">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px; vertical-align: middle;"><path d="M17 8h1a4 4 0 1 1 0 8h-1"></path><path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z"></path><line x1="6" x2="14" y1="2" y2="2"></line></svg>
+          Buy me a beer
+        </a>
       </div>
     `;
 
