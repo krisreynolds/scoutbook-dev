@@ -1,37 +1,39 @@
-/* --- 1. THEME & FONT MAPPING --- */
+/* ==========================================================================
+   1. THEME, TYPOGRAPHY & DESIGN SYSTEM BRAND VARIABLES
+   ========================================================================== */
 
 :root {
-  /* --- PRIMARY BRAND COLOURS --- */
-  --scout-purple:        #7413dc; /* Primary brand color anchoring external use */
-  --scout-teal:          #088486; /* Darker 2023 variant to optimize text contrast */
+  /* Core Brand Identity Colors */
+  --scout-purple:        #7413dc; /* Primary brand anchor */
+  --scout-teal:          #088486; /* Optimized high-contrast accent text variant */
   
-  /* --- CORE BRAND PALETTE --- */
-  --scout-red:          #ed3f23; /* Squirrels section color */
-  --scout-pink:         #ffb4e5; /* Supporting brand accent */
-  --scout-green:        #25b755; /* General brand green */
-  --scout-navy:         #003982; /* Explorers section color */
-  --scout-blue:         #006ddf; /* Beavers section color */
-  --scout-yellow:       #ffe627; /* Supporting brand accent */
-  --scout-orange:       #ff912a; /* 2023 introduction - youthful/optimistic accent */
-  --scout-forest-green: #205b41; /* Supporting badge layout accent */
+  /* Section-Specific & Accent Palette */
+  --scout-red:          #ed3f23; /* Squirrels Section */
+  --scout-pink:         #ffb4e5; /* Supporting Accent */
+  --scout-green:        #25b755; /* General Branding */
+  --scout-navy:         #003982; /* Explorers Section */
+  --scout-blue:         #006ddf; /* Beavers Section */
+  --scout-yellow:       #ffe627; /* Supporting Accent */
+  --scout-orange:       #ff912a; /* Youthful/Optimistic Accent */
+  --scout-forest-green: #205b41; /* Badge Component Accent */
 
-  /* --- SPECIFIC SECTION GREENS --- */
-  --cub-section-green:   #23a950; /* Cubs specific uniform & media shade */
-  --scout-section-green: #004851; /* Scouts specific uniform & media shade */
+  /* Uniform/Media Specific Greens */
+  --cub-section-green:   #23a950; /* Cubs Layouts */
+  --scout-section-green: #004851; /* Scouts Layouts */
 
-  /* --- BRAND GRAYSCALE --- */
+  /* Grayscale Spectrum */
   --scout-white:         #ffffff;
-  --scout-black:         #000000; /* Network section color / Base layout black */
+  --scout-black:         #000000; /* Network Section & Base Typography */
   --scout-grey-80:       #2f2f2f;
   --scout-grey-60:       #636363;
   --scout-grey-40:       #979797;
   --scout-grey-20:       #c8c8c8;
 
-  /* Ensure the custom font is applied to headers if the theme misses any */
+  /* Typography Stack Configuration */
   --md-text-font: "Nunito Sans", -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
 }
 
-/* Light Mode Variables */
+/* Light Mode Core Tokens */
 [data-md-color-scheme="default"] {
   --md-primary-fg-color:        var(--scout-purple);
   --md-primary-fg-color--light: var(--scout-teal);
@@ -39,7 +41,7 @@
   --md-accent-fg-color:         var(--scout-teal);
 }
 
-/* Dark Mode Variables */
+/* Dark Mode Core Tokens */
 [data-md-color-scheme="slate"] {
   --md-primary-fg-color:        var(--scout-green);
   --md-primary-fg-color--light: var(--scout-teal);
@@ -47,19 +49,22 @@
   --md-accent-fg-color:         var(--scout-purple);
 }
 
-/* --- 2. CONTENT STYLING --- */
+/* ==========================================================================
+   2. MAIN CONTENT STYLING & TEXT LAYOUTS
+   ========================================================================== */
 
+/* Enforce global brand typography stack across headers, menus, and actions */
 .md-content h1, .md-content h2, .md-content h3, .md-nav__link, .md-button {
   font-family: var(--md-text-font) !important;
 }
 
-/* Hide headlinks */
+/* Hide permanent anchor headerlinks next to titles */
 .md-content h2 .headerlink,
 .md-content h3 .headerlink {
   display: none;
 }
 
-/* H2 County Labels */
+/* Styled Section Sub-Headers (County Labels) */
 .md-content h2 {
   font-size: 0.7rem !important;
   font-weight: 800 !important;
@@ -72,7 +77,7 @@
   border-bottom: 2px solid var(--scout-purple) !important;
 }
 
-/* H3 Cards */
+/* Main Interactive Card Component Headings */
 .md-content h3 {
   font-size: 1.00rem !important;
   font-weight: 700 !important;
@@ -89,15 +94,15 @@
 .md-content h3 a {
   color: var(--scout-purple);
   text-decoration: none;
-  transition: color 0.2s ease; /* Smooth color transition */
+  transition: color 0.2s ease;
 }
 
-/* Light Mode Hover State */
 .md-content h3 a:hover {
-  color: var(--scout-green) !important; /* Fixed: Added missing closing parenthesis */
+  color: var(--scout-green) !important;
   text-decoration: underline !important;
 }
 
+/* Main Interactive Card Component Descriptions (Paragraph immediately following H3) */
 .md-content h3 + p {
   background: #f8f9fa !important;
   border: 1px solid #e9ecef !important;
@@ -111,7 +116,9 @@
   color: #495057 !important;
 }
 
-/* --- DARK MODE OVERRIDES --- */
+/* ==========================================================================
+   3. DARK MODE (SLATE SCHEME) OVERRIDES
+   ========================================================================== */
 
 [data-md-color-scheme="slate"] .md-content h2 {
   color: #ffffff !important;
@@ -130,7 +137,6 @@
   transition: color 0.2s ease;
 }
 
-/* Dark Mode Hover Color */
 [data-md-color-scheme="slate"] .md-content h3 a:hover {
   color: var(--scout-purple) !important;
   text-decoration: underline !important;
@@ -143,36 +149,40 @@
   border-left-color: var(--scout-teal) !important;
 }
 
-/* --- ACTIVE NAVIGATION LINKS --- */
+/* ==========================================================================
+   4. NAVIGATION STATES (ACTIVE PAGES)
+   ========================================================================== */
 
-/* Light Mode: Active page link and active parent category */
+/* Light Mode: Highlights currently active file and active ancestor groups */
 [data-md-color-scheme="default"] .md-nav__link--active,
 [data-md-color-scheme="default"] .md-nav__item--active > .md-nav__link {
   color: var(--scout-teal) !important; 
   font-weight: 700 !important;
 }
 
-/* Dark Mode: Active page link and active parent category */
+/* Dark Mode: Highlights currently active file and active ancestor groups */
 [data-md-color-scheme="slate"] .md-nav__link--active,
 [data-md-color-scheme="slate"] .md-nav__item--active > .md-nav__link {
   color: var(--scout-green) !important; 
   font-weight: 700 !important;
 }
 
-/* --- 3. NAVIGATION BUTTONS --- */
+/* ==========================================================================
+   5. EXTENDED SIDEBAR EMBEDDED BUTTONS (FLEXBOX COUPLING)
+   ========================================================================== */
 
-/* Force the Desktop Sidebar wrapper to behave as a full flex column layout */
+/* Configure primary desktop menu wrapper into a vertical flex stack */
 .md-sidebar--primary .md-sidebar__scrollwrap {
   display: flex !important;
   flex-direction: column !important;
 }
 
-/* Ensure the main navigation menu fills remaining height, pinning buttons down */
+/* Forces structural page nav links to consume free space, pushing footers down */
 .md-sidebar--primary .md-sidebar__scrollwrap > .md-nav {
   flex-grow: 1 !important;
 }
 
-/* Force the Mobile Slide Drawer layout to behave as a full flex column layout */
+/* Configure mobile side drawer container into an isolated vertical flex column */
 .md-nav--drawer {
   display: flex !important;
   flex-direction: column !important;
@@ -183,23 +193,23 @@
   flex-grow: 1 !important;
 }
 
-/* Shared Container Styling for the extra buttons block */
+/* Custom Navigation Button Container Layout */
 [id="md-nav-extra"] {
   display: flex !important;
   flex-direction: column !important;
-  gap: 12px !important;              /* Spacing between buttons */
-  padding: 1.2rem 0.8rem !important; /* Breathing room padding */
+  gap: 12px !important;             
+  padding: 1.2rem 0.8rem !important; 
   background-color: var(--md-default-bg-color) !important;
-  border-top: 1px solid rgba(0, 0, 0, 0.07) !important;   /* Separator line */
-  margin-top: auto !important;       /* Pushes container to absolute bottom */
+  border-top: 1px solid rgba(0, 0, 0, 0.07) !important;   
+  margin-top: auto !important;       /* Critical layout push to pin item cleanly to the absolute base */
 }
 
-/* Dark mode adjustment for the separator line */
+/* Contrast optimization for dark theme separating rule line */
 [data-md-color-scheme="slate"] [id="md-nav-extra"] {
   border-top-color: rgba(255, 255, 255, 0.1) !important;
 }
 
-/* Button style properties and alignment centering layout */
+/* Core Functional Button Layout rules */
 [id="md-nav-extra"] a.md-nav-btn {
   display: flex !important;
   align-items: center !important;
@@ -220,12 +230,12 @@
   opacity: 0.9;
 }
 
-/* Ensure all icons within the container have precise layout layout uniformities */
+/* Layout alignment controls for SVG element embeds within the link blocks */
 [id="md-nav-extra"] a.md-nav-btn svg {
   margin-right: 8px !important;
-  flex-shrink: 0 !important; /* Prevents the icon from shrinking on narrow sidebars */
+  flex-shrink: 0 !important; /* Prevents structural collapse of layout on narrow viewports */
 }
 
-/* Button variants styling custom maps */
+/* Independent Background Variant Overrides */
 [id="md-nav-extra"] a.md-nav-btn--suggest { background: var(--scout-green) !important; color: #ffffff !important; }
 [id="md-nav-extra"] a.md-nav-btn--beer { background: var(--scout-yellow) !important; color: #000000 !important; }

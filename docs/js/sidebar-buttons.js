@@ -1,6 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
+  
+  // Appends custom navigation buttons to both desktop and mobile layouts
   function injectNavButtons() {
-    // 1. Define the HTML structure for your standalone buttons with normalized SVGs
+    // HTML payload containing the custom buttons, SVG icons, and external URLs
     const buttonsHTML = `
       <div id="md-nav-extra">
         <a href="https://form.jotform.com/260734372907057" target="_blank" class="md-nav-btn md-nav-btn--suggest">
@@ -14,26 +16,27 @@ document.addEventListener("DOMContentLoaded", function () {
       </div>
     `;
 
-    // 2. Target the Desktop Navigation Sidebar Container
+    // Inject into the primary desktop sidebar if it exists and the buttons aren't already present
     const desktopNav = document.querySelector(".md-sidebar--primary .md-sidebar__scrollwrap");
     if (desktopNav && !document.querySelector(".md-sidebar--primary #md-nav-extra")) {
       desktopNav.insertAdjacentHTML("beforeend", buttonsHTML);
     }
 
-    // 3. Target the Mobile Pull-Out Drawer Navigation Container
+    // Inject into the mobile side-drawer menu if it exists and the buttons aren't already present
     const mobileNav = document.querySelector(".md-nav--drawer");
     if (mobileNav && !document.querySelector(".md-nav--drawer #md-nav-extra")) {
       mobileNav.insertAdjacentHTML("beforeend", buttonsHTML);
     }
   }
 
-  // Run immediately on page load
+  // Execute on initial page load
   injectNavButtons();
 
-  // Zensical uses instant loading (SPA-style hydration) when clicking nav links.
-  // This listener ensures buttons re-inject cleanly when changing pages without a hard reload.
+  // MkDocs/Material uses RxJS observables (location$) for instant loading.
+  // We subscribe to route changes to re-inject the buttons when navigating between pages.
   if (typeof location$ !== "undefined") {
     location$.subscribe(function () {
+      // 50ms delay ensures the DOM finish updating before we check for the elements
       setTimeout(injectNavButtons, 50);
     });
   }
