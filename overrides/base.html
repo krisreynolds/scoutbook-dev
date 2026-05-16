@@ -1,6 +1,4 @@
-{% extends "base.html" %}
-
-/* 1. Desktop Sidebar Injection */
+{# 1. Desktop Sidebar Injection #}
 {% block site_nav %}
   {{ super() }}
   <div id="md-nav-extra" class="desktop-only">
@@ -9,7 +7,7 @@
   </div>
 {% endblock %}
 
-/* 2. Mobile Drawer Navigation Injection */
+{# 2. Mobile Drawer Navigation Injection #}
 {% block nav %}
   {{ super() }}
   <div id="md-nav-extra" class="mobile-only">
