@@ -1,7 +1,5 @@
 # External Providers
 
-[Suggest a link :lucide-link:](https://form.jotform.com/260734372907057){ .md-button .md-button--primary }
-
 ## Duke of Edinburgh's Award
 
 ### [Expeditions Wales](https://www.expeditionswales.co.uk/)

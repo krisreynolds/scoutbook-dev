@@ -1,7 +1,5 @@
 # Shops & Suppliers
 
-[Suggest a link :lucide-link:](https://form.jotform.com/260734372907057){ .md-button .md-button--primary }
-
 ### [Burnt Stuff](https://www.burntstuff.com/shop)
 Run by a former Scouter from his home on the Isle of Man, Burnt Stuff offers a range of personalisable 3D printed and laser engraved Scouting items including woggles, clocks and even camping cutlery!
 

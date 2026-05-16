@@ -1,7 +1,5 @@
 # Gang Shows
 
-[Suggest a link :lucide-link:](https://form.jotform.com/260734372907057){ .md-button .md-button--primary }
-
 ## Aberdeenshire
 
 ### [Aberdeenshire Gang Show](https://www.aberdeengangshow.co.uk)

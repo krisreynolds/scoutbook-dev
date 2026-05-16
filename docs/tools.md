@@ -1,7 +1,5 @@
 # Tools and Apps
 
-[Suggest a link :lucide-link:](https://form.jotform.com/260734372907057){ .md-button .md-button--primary }
-
 ## Graphic Design
 
 ### [Canva](https://www.canva.com/en_gb/)

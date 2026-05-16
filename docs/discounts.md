@@ -1,7 +1,5 @@
 # Scout Discounts
 
-[Suggest a link :lucide-link:](https://form.jotform.com/260734372907057){ .md-button .md-button--primary }
-
 ## Outdoors Shops
 
 Many "outdoors" shops will offer a discount to Scouts so even if the company isn't listed below, it's worth asking! Many will also be able to offer discounts for bulk purchases so it's worth asking to speak with the "Group Sales" or "B2B" teams within companies.

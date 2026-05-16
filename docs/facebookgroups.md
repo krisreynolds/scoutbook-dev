@@ -1,7 +1,5 @@
 # Scouting Facebook Groups
 
-[Suggest a link :lucide-link:](https://form.jotform.com/260734372907057){ .md-button .md-button--primary }
-
 ## Advice and Ideas
 
 ### [1st Facebook Scout Group](https://www.facebook.com/groups/2450689742)

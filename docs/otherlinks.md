@@ -1,7 +1,5 @@
 # Other Useful Links
 
-[Suggest a link :lucide-link:](https://form.jotform.com/260734372907057){ .md-button .md-button--primary }
-
 ## YouTube Channels
 
 ### [Big Man In The Woods](https://www.youtube.com/@bigmaninthewoods)

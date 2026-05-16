@@ -3,12 +3,12 @@ document.addEventListener("DOMContentLoaded", function () {
     // 1. Define the HTML structure for your standalone buttons with inline SVGs
     const buttonsHTML = `
       <div id="md-nav-extra">
-        <a href="https://form.jotform.com/260734372907057" class="md-nav-btn md-nav-btn--suggest">
+        <a href="https://form.jotform.com/260734372907057" target="_blank" class="md-nav-btn md-nav-btn--suggest">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px; vertical-align: middle;"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
           Suggest a link
         </a>
-        <a href="https://ko-fi.com/krisreynoldsdev" class="md-nav-btn md-nav-btn--beer">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px; vertical-align: middle;"><path d="M17 8h1a4 4 0 1 1 0 8h-1"></path><path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z"></path><line x1="6" x2="14" y1="2" y2="2"></line></svg>
+        <a href="https://ko-fi.com/krisreynoldsdev" target="_blank" class="md-nav-btn md-nav-btn--beer">
+          <svg data-v-0235d30f="" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-beer-icon lucide-beer"><path d="M17 11h1a3 3 0 0 1 0 6h-1"></path><path d="M9 12v6"></path><path d="M13 12v6"></path><path d="M14 7.5c-1 0-1.44.5-3 .5s-2-.5-3-.5-1.72.5-2.5.5a2.5 2.5 0 0 1 0-5c.78 0 1.57.5 2.5.5S9.44 2 11 2s2 1.5 3 1.5 1.72-.5 2.5-.5a2.5 2.5 0 0 1 0 5c-.78 0-1.5-.5-2.5-.5Z"></path><path d="M5 8v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V8"></path></svg>
           Buy me a beer
         </a>
       </div>

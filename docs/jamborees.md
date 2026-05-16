@@ -1,7 +1,5 @@
 # Jamborees
 
-[Suggest a link :lucide-link:](https://form.jotform.com/260734372907057){ .md-button .md-button--primary }
-
 These Jamborees advertise as being open to international groups and volunteers
 
 ## 2026

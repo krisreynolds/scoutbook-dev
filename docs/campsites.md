@@ -1,7 +1,5 @@
 # Campsites
 
-[Suggest a link :lucide-link:](https://form.jotform.com/260734372907057){ .md-button .md-button--primary }
-
 !!! info
 
     Sites marked with :scoutbook-scoutadventures: are run by Scout Adventures, part of The Scout Association.
