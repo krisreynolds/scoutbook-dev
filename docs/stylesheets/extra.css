@@ -123,6 +123,21 @@
 
 /* --- 3. NAVIGATION BUTTONS --- */
 
+/* Container targeting the wrapper at the bottom of the nav */
+[id="md-nav-extra"] {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 12px !important;              /* Spacing between the buttons */
+  padding: 1.2rem 0.8rem !important; /* Internal breathing room */
+  margin-top: auto !important;       /* Pushes container to the absolute bottom */
+  border-top: 1px solid rgba(0, 0, 0, 0.07) !important; /* Visual separator to keep it independent */
+}
+
+/* Dark mode specific adjustments for the separator line */
+[data-md-color-scheme="slate"] [id="md-nav-extra"] {
+  border-top-color: rgba(255, 255, 255, 0.1) !important;
+}
+
 [id="md-nav-extra"] a.md-nav-btn {
   font-family: var(--md-text-font) !important;
   display: block !important;
@@ -133,6 +148,12 @@
   font-size: 0.78rem !important;
   font-weight: 800 !important;
   width: 100% !important;
+  box-sizing: border-box !important;
+  transition: opacity 0.2s ease;
+}
+
+[id="md-nav-extra"] a.md-nav-btn:hover {
+  opacity: 0.9;
 }
 
 [id="md-nav-extra"] a.md-nav-btn--green { background: #84A40B !important; color: #fff !important; }
