@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+/* 1. Desktop Sidebar Injection */
+{% block site_nav %}
+  {{ super() }}
+  <div id="md-nav-extra" class="desktop-only">
+    <a href="https://example.com/green-link" class="md-nav-btn md-nav-btn--green">Green Action</a>
+    <a href="https://example.com/yellow-link" class="md-nav-btn md-nav-btn--yellow">Yellow Action</a>
+  </div>
+{% endblock %}
+
+/* 2. Mobile Drawer Navigation Injection */
+{% block nav %}
+  {{ super() }}
+  <div id="md-nav-extra" class="mobile-only">
+    <a href="https://example.com/green-link" class="md-nav-btn md-nav-btn--green">Green Action</a>
+    <a href="https://example.com/yellow-link" class="md-nav-btn md-nav-btn--yellow">Yellow Action</a>
+  </div>
+{% endblock %}

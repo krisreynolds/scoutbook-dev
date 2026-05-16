@@ -123,33 +123,38 @@
 
 /* --- 3. NAVIGATION BUTTONS --- */
 
-/* Force the wrapper navigation component to expand vertically */
-.md-nav--primary {
+/* Ensure parent sidebar wrappers handle flex stretching */
+.md-sidebar--primary .md-sidebar__scrollwrap {
   display: flex !important;
   flex-direction: column !important;
-  height: 100% !important;
 }
 
-/* Ensure the links list takes remaining space, pinning the extra div downward */
-.md-nav--primary .md-nav__list {
+.md-nav--primary {
   flex-grow: 1 !important;
+  display: flex !important;
+  flex-direction: column !important;
 }
 
-/* Container targeting the wrapper at the bottom of the nav */
+/* Base style for the extra buttons container */
 [id="md-nav-extra"] {
   display: flex !important;
   flex-direction: column !important;
-  gap: 12px !important;              /* Spacing between the buttons */
-  padding: 1.2rem 0.8rem !important; /* Internal breathing room */
-  margin-top: auto !important;       /* Pushes container to the absolute bottom */
-  border-top: 1px solid rgba(0, 0, 0, 0.07) !important; /* Visual separator to keep it independent */
+  gap: 12px !important;
+  padding: 1.2rem 0.8rem !important;
+  background-color: var(--md-default-bg-color) !important;
+  border-top: 1px solid rgba(0, 0, 0, 0.07) !important;
+  margin-top: auto !important; /* Pushes to absolute bottom */
+  position: sticky !important;
+  bottom: 0;
+  z-index: 10;
 }
 
-/* Dark mode specific adjustments for the separator line */
+/* Dark mode separator lines */
 [data-md-color-scheme="slate"] [id="md-nav-extra"] {
   border-top-color: rgba(255, 255, 255, 0.1) !important;
 }
 
+/* Button style properties */
 [id="md-nav-extra"] a.md-nav-btn {
   font-family: var(--md-text-font) !important;
   display: block !important;
@@ -170,3 +175,18 @@
 
 [id="md-nav-extra"] a.md-nav-btn--green { background: #84A40B !important; color: #fff !important; }
 [id="md-nav-extra"] a.md-nav-btn--yellow { background: #FFDD00 !important; color: #000 !important; }
+
+/* Responsive Viewport Toggling */
+@media screen and (min-width: 76.25em) {
+  .mobile-only { display: none !important; }
+}
+
+@media screen and (max-width: 76.24em) {
+  .desktop-only { display: none !important; }
+  /* Pin to bottom of mobile slide drawer navigation grid */
+  .md-nav--drawer {
+    display: flex !important;
+    flex-direction: column !important;
+    height: 100% !important;
+  }
+}
