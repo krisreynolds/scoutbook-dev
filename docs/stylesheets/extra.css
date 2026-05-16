@@ -42,8 +42,8 @@
 /* Dark Mode Variables */
 [data-md-color-scheme="slate"] {
   --md-primary-fg-color:        var(--scout-teal);
-  --md-primary-fg-color--light: #00d4b3;
-  --md-primary-fg-color--dark:  #008576;
+  --md-primary-fg-color--light: var(--scout-teal);
+  --md-primary-fg-color--dark:  var(--scout-green);
   --md-accent-fg-color:         var(--scout-purple);
 }
 
@@ -119,7 +119,7 @@
 }
 
 [data-md-color-scheme="slate"] .md-content h3 {
-  color: var(--scout-teal) !important;
+  color: var(--scout-green) !important;
   background: #2a2a3e !important;
   border-color: #4a4a6a !important;
   border-left-color: var(--scout-teal) !important;
@@ -141,6 +141,22 @@
   background: #2a2a3e !important;
   border-color: #4a4a6a !important;
   border-left-color: var(--scout-teal) !important;
+}
+
+/* --- ACTIVE NAVIGATION LINKS --- */
+
+/* Light Mode: Active page link and active parent category */
+[data-md-color-scheme="default"] .md-nav__link--active,
+[data-md-color-scheme="default"] .md-nav__item--active > .md-nav__link {
+  color: var(--scout-teal) !important; 
+  font-weight: 700 !important;
+}
+
+/* Dark Mode: Active page link and active parent category */
+[data-md-color-scheme="slate"] .md-nav__link--active,
+[data-md-color-scheme="slate"] .md-nav__item--active > .md-nav__link {
+  color: var(--scout-green) !important; 
+  font-weight: 700 !important;
 }
 
 /* --- 3. NAVIGATION BUTTONS --- */
