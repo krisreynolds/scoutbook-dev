@@ -3,7 +3,7 @@ Scoutbook
 
 A curated list of tools, programme ideas, campsites, and links for Scouts.
 
-[➕ Suggest a link](https://form.jotform.com/260734372907057)
+[Suggest a link :lucide-link:](https://form.jotform.com/260734372907057){ .md-button }
 
 ## About
 
