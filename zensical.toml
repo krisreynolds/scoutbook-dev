@@ -8,7 +8,7 @@ docs_dir = "docs"
 site_dir = "site"
 extra_css = ["stylesheets/extra.css"]
 extra_javascript = ["js/external-links.js"]
-custom_dir: overrides
+custom_dir: "overrides"
 
 [project.extra]
 generator = false
