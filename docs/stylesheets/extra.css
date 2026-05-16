@@ -37,6 +37,8 @@
   --md-primary-fg-color--light: var(--scout-teal);
   --md-primary-fg-color--dark:  var(--scout-teal);
   --md-accent-fg-color:         var(--scout-teal);
+  --md-default-bg-color:        var(--scout-grey-20);       /* Main content background */
+  --md-default-bg-color--light: var(--scout-grey-40);       /* Sidebar & panel background */
 }
 
 /* Dark Mode Variables */
@@ -45,6 +47,8 @@
   --md-primary-fg-color--light: #00d4b3;
   --md-primary-fg-color--dark:  #008576;
   --md-accent-fg-color:         var(--scout-purple);
+  --md-default-bg-color:        var(--scout-grey-80);                  /* Main dark canvas background */
+  --md-default-bg-color--light: var(--scout-grey-60);                  /* Sidebar & panel background */
 }
 
 /* --- 2. CONTENT STYLING --- */
