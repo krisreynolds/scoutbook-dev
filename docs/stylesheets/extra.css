@@ -123,26 +123,37 @@
 
 /* --- 3. NAVIGATION BUTTONS --- */
 
-/* Force the navigation area to behave as a full-height column layout */
-.md-nav--primary {
+/* Force the Desktop Sidebar wrapper to behave as a full flex column layout */
+.md-sidebar--primary .md-sidebar__scrollwrap {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+/* Ensure the main navigation menu fills remaining height, pinning buttons down */
+.md-sidebar--primary .md-sidebar__scrollwrap > .md-nav {
+  flex-grow: 1 !important;
+}
+
+/* Force the Mobile Slide Drawer layout to behave as a full flex column layout */
+.md-nav--drawer {
   display: flex !important;
   flex-direction: column !important;
   height: 100% !important;
 }
 
-/* Let the links grow to take up available space, pushing the buttons down */
-.md-nav__list {
+.md-nav--drawer .md-nav__list {
   flex-grow: 1 !important;
 }
 
-/* Container styling for the extra buttons block */
+/* Shared Container Styling for the extra buttons block */
 [id="md-nav-extra"] {
   display: flex !important;
   flex-direction: column !important;
-  gap: 12px !important;              /* Spacing between the buttons */
+  gap: 12px !important;              /* Spacing between buttons */
   padding: 1.2rem 0.8rem !important; /* Breathing room padding */
-  margin-top: auto !important;       /* Pushes container to the absolute bottom */
-  border-top: 1px solid rgba(0, 0, 0, 0.07) !important; /* Visual separator stroke */
+  background-color: var(--md-default-bg-color) !important;
+  border-top: 1px solid rgba(0, 0, 0, 0.07) !important;   /* Separator line */
+  margin-top: auto !important;       /* Pushes container to absolute bottom */
 }
 
 /* Dark mode adjustment for the separator line */
@@ -169,5 +180,5 @@
   opacity: 0.9;
 }
 
-[id="md-nav-extra"] a.md-nav-btn--green { background: #84A40B !important; color: #cb3030 !important; }
-[id="md-nav-extra"] a.md-nav-btn--yellow { background: #FFDD00 !important; color: #f3e708 !important; }
+[id="md-nav-extra"] a.md-nav-btn--green { background: #84A40B !important; color: #ffffff !important; }
+[id="md-nav-extra"] a.md-nav-btn--yellow { background: #FFDD00 !important; color: #000 !important; }
