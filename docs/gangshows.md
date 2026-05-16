@@ -70,7 +70,7 @@
 
 ## Hertfordshire
 
-### [Harpended and Wheathampstead Gang Show](https://harpenden.gs)
+### [Harpenden and Wheathampstead Gang Show](https://harpenden.gs)
 
 ### [St. Albans Gang Show](https://www.stalbansgangshow.com)
 
@@ -100,7 +100,7 @@
 
 ### [Harrogate Gang Show](https://www.facebook.com/profile.php?id=61556652538274)
 
-### [Middlesborough Gang Show](https://middlesbroughgangshow.co.uk)
+### [Middlesbrough Gang Show](https://middlesbroughgangshow.co.uk)
 
 ## Northamptonshire
 

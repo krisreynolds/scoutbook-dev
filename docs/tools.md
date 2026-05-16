@@ -15,7 +15,7 @@ Microsoft for Nonprofits offers eligible charitable organisations up to 300 free
 
 ## Section Management
 
-### [Online Scout Manager(OSM)](https://www.onlinescoutmanager.co.uk/)
+### [Online Scout Manager (OSM)](https://www.onlinescoutmanager.co.uk/)
 Online Scout Manager (OSM) is a web-based administration platform designed by Scout leaders for Scout leaders, trusted by over 100,000 leaders across Scout, Guide, and Boys' Brigade associations worldwide. It brings together member records, badge tracking, programme planning, event management, financial tracking, and parent communications into a single secure system, helping leaders spend less time on paperwork and more time with young people.
 
 ### [Scouts RAM](https://site.scoutsram.co.uk/)
@@ -24,7 +24,7 @@ Scouts RAM is a specialised management tool created by a leader to simplify the 
 ## Website Hosting
 
 ### [34SP](https://www.34sp.com/)
-34SP.com is a Manchester-based UK web hosting and domain registration provider that has been serving small businesses, developers, charities, and educational organisations for over 20 years. It offers a range of hosting plans — including WordPress, professional, and reseller options — and is particularly well regarded for its in-house customer support team, which can be reached by phone, email, or Slack seven days a week. 34SP generously provide free hosting for UK Charities - see [their website](https://www.34sp.com/charity-hosting/) for details.
+34SP.com is a Manchester-based UK web hosting and domain registration provider that has been serving small businesses, developers, charities, and educational organisations for over 20 years. It offers a range of hosting plans — including WordPress, professional, and reseller options — and is particularly well regarded for its in-house customer support team, which can be reached by phone, email, or Slack seven days a week. 34SP generously provides free hosting for UK Charities - see [their website](https://www.34sp.com/charity-hosting/) for details.
 
 ### [Brixly](https://brixly.uk/)
 Brixly is an award-winning UK-based web hosting provider offering a range of services including shared web hosting, reseller hosting, VPS, and dedicated servers, all built on a high-performance NVMe cloud infrastructure powered by 100% renewable energy. It is particularly well regarded in the reseller hosting market and also offers a [free hosting programme for charities](https://brixly.uk/free-hosting-for-charities), making it a popular choice for organisations of all sizes.

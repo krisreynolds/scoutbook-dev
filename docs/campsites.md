@@ -125,12 +125,14 @@ A 6-acre wooded site with individual areas and firepits, perfect for traditional
 ## Hertfordshire
 
 ### [Well End Activity Centre](https://www.wellend.org.uk)
-ell End Activity Centre is a compact 9-acre site in Hertfordshire featuring five acres of meadow and four acres of woodland, specifically designed to offer a focused range of outdoor experiences for younger youth groups.ß
+Well End Activity Centre is a compact 9-acre site in Hertfordshire featuring five acres of meadow and four acres of woodland, specifically designed to offer a focused range of outdoor experiences for younger youth groups.
 
 ## Kent
 
 ### [Buckmore Park Scout Campsite](https://www.buckmorepark.org.uk)
 Buckmore Park Scout Campsite offers a wide range of options for visits – whether for a single day or residential stays. Buckmore Park also offers a large number of activity options.
+
+## Hopehill Campsite
 
 ### [Hopehill Campsite](https://www.graveshamscouts.org.uk/hopehill-campsite/)
 A peaceful site in North West Kent surrounded by woodland and grassy glades, ideal for camping and outdoor challenges.
@@ -183,7 +185,7 @@ Huish Woods is a 40-acre mixed woodland activity centre in Somerset that offers 
 ## Staffordshire
 
 ### [Beaudesert Outdoor Activity Centre](https://beaudesert.org.uk)
-Beaudesert Outdoor Activity Centre is a non-profit facility set in 120 acres of mixed woodland and parkland on the edge of Cannock Chase in Staffordshire. It provides a wide range of adventurous outdoor experiences and lots of camping and accomodation space.
+Beaudesert Outdoor Activity Centre is a non-profit facility set in 120 acres of mixed woodland and parkland on the edge of Cannock Chase in Staffordshire. It provides a wide range of adventurous outdoor experiences and lots of camping and accommodation space.
 
 ### [Gradbach Scout Camp Site](https://gradbachscoutcamp.org.uk)
 The campsite is ideally situated for most Peak District activities including climbing, walking and caving and is a much used stopover point for Scout and Duke of Edinburgh Award expeditions, as well as longer troop or patrol camps.

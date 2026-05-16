@@ -19,18 +19,18 @@ description = """
 """
 
 nav = [
-  {"Home" = "index.md"},
-  {"Campsites" = "campsites.md"},
-  {"External Activity Providers" = "external-providers.md"},
-  {"Gang Shows" = "gangshows.md"},
-  {"Jamborees" = "jamborees.md"},          # Added .md extensions to fix potential build warnings
-  {"Programme Ideas" = "programme-ideas.md"},
-  {"Scout Association Links" = "scouts-links.md"},
-  {"Scout Discounts" = "discounts.md"},
-  {"Scouting Facebook Groups" = "facebookgroups.md"},
-  {"Shops & Suppliers" = "shops-suppliers.md"},
-  {"Tools & Apps" = "tools.md"},
-  {"Useful Links" = "otherlinks.md"}
+  { "Home" = "index.md" },
+  { "Campsites" = "campsites.md" },
+  { "External Activity Providers" = "external-providers.md" },
+  { "Gang Shows" = "gangshows.md" },
+  { "Jamborees" = "jamborees.md" },
+  { "Programme Ideas" = "programme-ideas.md" },
+  { "Scout Association Links" = "scouts-links.md" },
+  { "Scout Discounts" = "discounts.md" },
+  { "Scouting Facebook Groups" = "facebookgroups.md" },
+  { "Shops & Suppliers" = "shops-suppliers.md" },
+  { "Tools & Apps" = "tools.md" },
+  { "Useful Links" = "otherlinks.md" }
 ]
 
 [project.theme]
@@ -64,6 +64,7 @@ toggle.name = "Switch to light mode"
 emoji_index = "zensical.extensions.emoji.twemoji"
 emoji_generator = "zensical.extensions.emoji.to_svg"
 options.custom_icons = ["overrides/.icons"]
+
 [project.markdown_extensions.attr_list]
 
 [project.markdown_extensions.toc]
