@@ -123,33 +123,29 @@
 
 /* --- 3. NAVIGATION BUTTONS --- */
 
-/* Ensure parent sidebar wrappers handle flex stretching */
-.md-sidebar--primary .md-sidebar__scrollwrap {
-  display: flex !important;
-  flex-direction: column !important;
-}
-
+/* Force the navigation area to behave as a full-height column layout */
 .md-nav--primary {
-  flex-grow: 1 !important;
   display: flex !important;
   flex-direction: column !important;
+  height: 100% !important;
 }
 
-/* Base style for the extra buttons container */
+/* Let the links grow to take up available space, pushing the buttons down */
+.md-nav__list {
+  flex-grow: 1 !important;
+}
+
+/* Container styling for the extra buttons block */
 [id="md-nav-extra"] {
   display: flex !important;
   flex-direction: column !important;
-  gap: 12px !important;
-  padding: 1.2rem 0.8rem !important;
-  background-color: var(--md-default-bg-color) !important;
-  border-top: 1px solid rgba(0, 0, 0, 0.07) !important;
-  margin-top: auto !important; /* Pushes to absolute bottom */
-  position: sticky !important;
-  bottom: 0;
-  z-index: 10;
+  gap: 12px !important;              /* Spacing between the buttons */
+  padding: 1.2rem 0.8rem !important; /* Breathing room padding */
+  margin-top: auto !important;       /* Pushes container to the absolute bottom */
+  border-top: 1px solid rgba(0, 0, 0, 0.07) !important; /* Visual separator stroke */
 }
 
-/* Dark mode separator lines */
+/* Dark mode adjustment for the separator line */
 [data-md-color-scheme="slate"] [id="md-nav-extra"] {
   border-top-color: rgba(255, 255, 255, 0.1) !important;
 }
@@ -173,20 +169,5 @@
   opacity: 0.9;
 }
 
-[id="md-nav-extra"] a.md-nav-btn--green { background: #84A40B !important; color: #fff !important; }
-[id="md-nav-extra"] a.md-nav-btn--yellow { background: #FFDD00 !important; color: #000 !important; }
-
-/* Responsive Viewport Toggling */
-@media screen and (min-width: 76.25em) {
-  .mobile-only { display: none !important; }
-}
-
-@media screen and (max-width: 76.24em) {
-  .desktop-only { display: none !important; }
-  /* Pin to bottom of mobile slide drawer navigation grid */
-  .md-nav--drawer {
-    display: flex !important;
-    flex-direction: column !important;
-    height: 100% !important;
-  }
-}
+[id="md-nav-extra"] a.md-nav-btn--green { background: #84A40B !important; color: #cb3030 !important; }
+[id="md-nav-extra"] a.md-nav-btn--yellow { background: #FFDD00 !important; color: #f3e708 !important; }
